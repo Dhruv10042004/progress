@@ -1,0 +1,203 @@
+.bg-blue
+{
+ background-color: rgb(70, 24, 170);
+}
+.bg
+{
+  background-color: white;
+}
+body
+{
+  overflow-x:hidden ;
+}
+#navbar {
+    color:white;
+    padding:20px 30px;
+    max-height: 100%;
+  }
+  
+  #navbar  a {
+    color: white;
+  }
+  .container
+  {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+  }
+  #navbar img {
+    float: left;
+    max-width:150px;
+    height: 100%;
+    /* display: inline; */
+    /* align-items: center; */
+  }
+  #navbar ul {
+    list-style: none;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #navbar ul li {
+    float: left;
+    font-size: 20px;
+  }
+   #navbar ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 0px 20px;
+    text-align: center;
+    
+  } 
+  #navbar  ul li a:hover
+ {
+   font-weight: bolder;
+  } 
+  .container2
+  {
+    margin:40px 20px;
+    padding:20px 20px;
+    display: flex;
+    flex-direction: row;
+    height:fit-content;
+    width:100%;
+    padding-bottom:0px;
+    padding-right:0px;
+    margin-right:0px;
+  }
+  .container2 .textcontent
+  {
+    padding-top:50px;
+    color: aliceblue;
+    width: 50%;
+  }
+  .container2 .phone
+  { 
+    display: flex;
+    flex-direction: row;
+    justify-content: right; 
+    width:50%;
+    height: 100%;
+
+  }
+  .container2 .phone img
+  {
+    width:600px;
+    height:630px;
+    margin:0px 0px;
+  }
+  h1
+  {
+    font-weight: 600px;
+    font-size: 50px;
+  }
+ .features
+ {
+  text-align: center;
+  padding-top:30px;
+ }
+ .box-1 .feature 
+ {
+  display:flex;
+  flex-direction: row;
+  padding: 10px 10px;
+  text-align:right;
+ }
+ .box-3 .feature
+ {
+  display:flex;
+  flex-direction: row;
+  padding: 10px 10px;
+  text-align: left;
+ }
+ .box
+ {
+  display: flex;
+  flex-direction: row;
+  padding:10px 30px;
+ }
+.box-2
+{
+  padding:20px 20px;
+  margin:20px 80px;
+}
+.feature img
+{
+  padding:20px 20px;
+  margin-top:25px;
+}
+.clients 
+{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.icons
+{
+  color:gold;
+}
+.clients .client
+{
+  padding:20px 20px;
+}
+.footer
+{
+  text-align: center;
+  padding:40px 40px;
+  height: 100%;
+}
+.footer h4,.footer div
+{
+  display: inline;
+}
+
+.footer h4
+{
+  padding:0px;
+}
+@media(max-width:768px) {
+  .navigate{
+    float: right;
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    display: flex;
+      flex-direction: column;
+      height: 100%;
+      padding: 20px;
+  }
+  #navbar ul{
+    flex-direction: column;
+  }
+  #navbar li{
+    border-bottom: 1px solid black;
+    padding:20px 20px;
+  }
+  #container a {
+      padding: 5px 5px;
+      margin: 0 3px;
+  }
+  .clients,.box
+  {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container2 
+  {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container2 .textcontent h1
+  {
+    font-size: 50px;
+  }
+  .container2 .phone img
+  {
+    height: 50%;
+  }
+}
